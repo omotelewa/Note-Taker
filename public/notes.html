@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="assets/css/notes.css">
   <title>Notes</title>
 </head>
 <body>
@@ -16,14 +17,34 @@
         <a class="navbar-brand" href="/">Note Taker</a>
     </nav>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <button id="takenotes">Add Notes</button>
+      <h1>Note Taker</h1>
+    </div>
+  </div>
+  
+  <div class="notesDiv">
+    
+    <div id=savedNotes>
+      <h1>Saved Notes</h1>
+      <hr>
+    </div>
+    <div id="createNotes">
+      <h1>Create Notes</h1>
+      <hr>
+      <div class="createNotesDiv">
+        <input type="text" class="textTitle">
+        <textarea class="textBody">
+        <button id="takenotes">Save Note</button>
+      </div>
+                    <div class="container">
         </div>
+
+ 
+
       </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script> -->
   <!-- <script src="assets/js/notes.js"></script> -->
 </body>
 
